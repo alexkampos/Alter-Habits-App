@@ -1,0 +1,616 @@
+.security-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 98;
+    background-color: rgba(121, 121, 121, 0.418);
+    overflow: auto;
+}
+
+/* LOGIN */
+
+.login-container {
+    position: absolute;
+    width: 30vw;
+    height: 400px;
+    z-index: 99;
+    left: 35vw;
+    right: 35vw;
+    top: 22vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px 1px rgba(41, 41, 41, 0.507);
+    background-color: rgba(30, 67, 86, 0.863);
+    overflow: auto;
+}
+
+.login-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-text {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(41, 41, 41, 0.849);
+    margin-bottom: 20px;
+}
+
+.user-pass-container{
+    margin-bottom: 20px;
+}
+
+.login-button-container button {
+    background-color: inherit;
+    /* border: none; */
+    border: 1px solid rgba(214, 213, 213, 0.699);
+    color: rgba(214, 213, 213, 0.699);
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+.login-button-container button:focus {
+    outline: none;
+}
+
+.login-button-container button:hover {
+    background-color: rgba(214, 213, 213, 0.616);
+    color: black;
+}
+
+.required-alert-login {
+    background-color: rgba(255, 148, 148, 0.507);
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 0 0 4px 4px;
+    color: rgb(180, 49, 49);
+}
+
+/* REGISTRATION */
+
+.register-component-container {
+    position: absolute;
+    width: 30vw;
+    height: 400px;
+    z-index: 99;
+    left: 35vw;
+    right: 35vw;
+    top: 22vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px 1px rgba(41, 41, 41, 0.507);
+    background-color: rgba(30, 67, 86, 0.863);
+}
+
+.register-section-one, .register-section-two, .register-section-three, .register-section-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-section-three {
+    align-items: center;
+}
+
+.text-inputs {
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(214, 213, 213, 0.699);
+    padding: 5px;
+    background-color: inherit;
+    outline: none;
+    color: rgba(238, 238, 238, 0.849);
+}
+
+.css-1uccc91-singleValue {
+    color: rgba(238, 238, 238, 0.849) !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+    width: 0 !important;
+}
+
+.date-of-birth-picker {
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgba(214, 213, 213, 0.699);
+    color: rgba(214, 213, 213, 0.699);
+}
+
+.date-of-birth-picker:focus {
+    outline: none;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+    padding-bottom: 30px;
+}
+
+.forward-button {
+    align-self: left;
+}
+
+.forward-button, .back-button {
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgba(214, 213, 213, 0.699);
+    color: rgba(214, 213, 213, 0.699);
+    padding: 5px 10px;
+}
+
+.forward-button:hover , .back-button:hover {
+    border-radius: 5px;
+    background-color: rgba(214, 213, 213, 0.616);
+    border: none;
+    color: black;
+}
+
+.forward-button:disabled , .back-button:disabled {
+    background-color: inherit;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.699);
+    color: rgba(156, 156, 156, 0.699);
+    border-radius: 0;
+}
+
+.forward-button:focus , .back-button:focus {
+    outline: none;
+}
+
+.radio-toolbar {
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+
+  }
+  
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar .r_label {
+    display: inline-block;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 13px;
+    border: 2px solid rgba(214, 213, 213, 0.699);
+    border-radius: 4px;
+    margin: 0 10px;
+    margin-top: 10px;
+    color: rgba(214, 213, 213, 0.699);
+}
+
+.radio-toolbar .r_label:hover {
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+
+.radio-toolbar input[type="radio"]:checked + .r_label {
+    background-color: white;
+    color: black;
+}
+
+.input-error-container {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    padding: 5px 8px;
+    background-color: rgba(206, 136, 136, 0.582);
+    border: 2px solid rgb(192, 9, 9);
+    border-radius: 3px;
+    color: rgb(136, 17, 17);
+    min-width: 100%;
+    left: 0;
+    top: 67px;
+    width: auto;
+    font-size: 14px;
+    z-index: 1;
+}
+/* BOOK ACTIVITY */
+
+.book-activity-container {
+    position: absolute;
+    width: 25vw;
+    height: 250px;
+    z-index: 99;
+    left: 37.5vw;
+    right: 37.5vw;
+    top: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(41, 41, 41, 0.507);
+    /* overflow: auto; */
+}
+
+
+/* .book-activity-container span {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10%;
+} */
+
+.dropdown-activities {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.date-picker {
+    margin-bottom: 16px;
+}
+
+.enroll-button {
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.603);
+    border: 1px solid rgba(0, 0, 0, 0.603);
+}
+
+.enroll-button:hover {
+    background-color: rgba(56, 56, 56, 0.651);
+    color: white;
+}
+
+.enroll-button:focus {
+    outline: none;
+}
+
+/* QUIZ */
+
+.quiz-component-container {
+    position: absolute;
+    width: 30vw;
+    height: 500px;
+    z-index: 99;
+    left: 35vw;
+    right: 35vw;
+    top: 17vh;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(41, 41, 41, 0.507);
+    overflow: auto;
+}
+
+.question-indicator-container {
+    display: flex;
+    flex-direction: row;
+    height: 8px;
+    background-color: rgba(117, 115, 115, 0.507);
+    margin-bottom: 5px;
+}
+
+.current-question-indicator, .not-current-question-indicator {
+    height: 100%;
+    width: 25%;
+}
+
+.current-question-indicator {
+    background-color:rgba(30, 67, 86, 0.8);
+}
+
+.question-container {
+    height: 85%;
+}
+
+.question-photo {
+    height: 170px;
+    position: relative;
+    flex-grow: 0;
+}
+
+.question-photo img{
+   height: 100%;
+   width: 100%; 
+}
+
+.question-photo div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgba(41, 41, 41, 0.678);
+    color: white;
+}
+
+.question-answers-container{
+    height: 236px; 
+    margin-top: 5px;
+} 
+
+.answers-container {
+    height: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.answers-container:hover {
+    background-image: linear-gradient(to right, rgb(49, 157, 245), rgb(198, 229, 255));
+    color: white;
+}
+
+.answer-selected {
+    background-image: linear-gradient(to right, rgb(49, 157, 245), rgb(198, 229, 255));
+    color: white;
+}
+
+.next-or-submit-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.next-or-submit-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: rgba(30, 67, 86, 0.8);
+    color: white;
+}
+
+.next-or-submit-button:disabled {
+    background-color: rgba(84, 105, 116, 0.527);
+}
+
+.suggested-activity-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.suggested-activity-container img {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.suggestions {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.suggested-activity-title-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggested-activity-title-description span {
+    align-self: center;
+    margin: 10px;
+    font-weight: 600;
+}
+
+/* PARTNER FORM */
+
+.partner-form-container {
+    position: absolute;
+    width: 40vw;
+    height: 400px;
+    z-index: 99;
+    left: 30vw;
+    right: 30vw;
+    top: 22vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px 1px rgba(41, 41, 41, 0.507);
+    background-color: rgba(30, 67, 86, 0.863);
+}
+
+.image-dropzone {
+    border: rgba(214, 213, 213, 0.699) dotted 4px;
+    border-radius: 10px;
+    color: rgb(117, 117, 117);
+    margin-top: 20px;
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image-dropzone p {
+    margin-bottom: 0;
+}
+
+.preview-image-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.go2646822163 {
+    background-color: inherit !important;
+    border: none !important;
+    border-bottom: rgba(214, 213, 213, 0.699) solid 1px !important;
+}
+
+.go2139093995 {
+    margin-top: 30px;
+}
+
+.go2642161244 {
+    width: 230px;
+}
+
+.dropdown-heading-value {
+    color: white;
+    width: 0;
+}
+
+.dropdown-heading-value span{
+    width: 100%;
+}
+
+.point-address-container {
+    width: 100%;
+    height: 400%;
+    position: relative;
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.instruction-text {
+    position: absolute;
+    right: 2px;
+    top: 20%;
+    z-index: 5;
+    border: black 1px solid;
+    padding: 5px;
+    background-color: rgba(73, 73, 73, 0.479);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.address-search {
+    position: absolute;
+    z-index: 5;
+    right: 2px;
+    top: 5%;
+}
+
+.address-search div input{
+    width: 160px;
+}
+
+.search-pop  {
+    z-index: 100;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 1400px) {
+    .login-container, .book-activity-container, .quiz-component-container {
+        width: 20vw;
+        left: 40vw;
+        right: 40vw;
+    }
+
+    .partner-form-container {
+        width: 35vw;
+        left: 32.5vw;
+        right: 32.5vw;
+    }
+
+    .register-component-container {
+        width: 25vw;
+        left: 37.5vw;
+        right: 37.5vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+  .book-activity-container, .quiz-component-container {
+        width: 30vw;
+        left: 35vw;
+        right: 35vw;
+    }
+
+    .register-component-container {
+        width: 35vw;
+        left: 32.5vw;
+        right: 32.5vw;
+    }
+}
+
+@media (max-width: 850px) {
+    .login-container, .book-activity-container, .quiz-component-container {
+        width: 40vw;
+        left: 30vw;
+        right: 30vw;
+    }
+
+    .partner-form-container {
+        width: 55vw;
+        left: 22.5vw;
+        right: 22.5vw;
+    }
+
+    .register-component-container {
+        width: 45vw;
+        left: 27.5vw;
+        right: 27.5vw;
+    }
+}
+
+@media (max-width: 690px) {
+    .register-component-container, .partner-form-container {
+        width: 60vw;
+        left: 20vw;
+        right: 20vw;
+    }
+}
+
+@media (max-width: 630px) {
+    .login-container, .book-activity-container, .quiz-component-container, .register-component-container, .partner-form-container {
+        width: 60vw;
+        left: 20vw;
+        right: 20vw;
+    }
+}
+
+@media (max-width: 510px) {
+    .register-component-container, .partner-form-container {
+        width: 80vw;
+        left: 10vw;
+        right: 10vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .login-container, .book-activity-container, .quiz-component-container{
+        width: 90vw;
+        left: 5vw;
+        right: 5vw;
+    }
+
+    .register-component-container {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .book-activity-container, .register-component-container {
+        padding: 10px 5px;
+    }
+}

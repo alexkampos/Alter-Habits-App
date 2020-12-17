@@ -1,0 +1,275 @@
+
+   [
+    {
+      "id":1,
+      "name": "indoor cycling",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 0,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "pilates",
+      "environment": "both",
+      "group": "both",
+      "level": 0,
+      "properties": [
+        "relaxation"
+      ]
+    },
+    {
+      "id":3,
+      "name": "yoga",
+      "environment": "both",
+      "group": "both",
+      "level": 0,
+      "properties": [
+        "relaxation"
+      ]
+    },
+    {
+      "id":4,
+      "name": "swimming",
+      "environment": "indoor",
+      "group": "no",
+      "level": 1,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":5,
+      "name": "water polo",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 2,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":6,
+      "name": "aqua aerobic",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 2,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":7,
+      "name": "capoeira",
+      "environment": "indoor",
+      "group": "both",
+      "level": 1,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":8,
+      "name": "tai chi",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "stregth",
+        "relaxation"
+      ]
+    },
+    {
+      "id":9,
+      "name": "karate",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "strength"
+      ]
+    },
+    {
+      "id":10,
+      "name": "self defence",
+      "environment": "indoor",
+      "group": "both",
+      "level": 0,
+      "properties": [
+        "strength"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "dance",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "pole dance",
+      "environment": "indoor",
+      "group": "both",
+      "level": 1,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":13,
+      "name": "ice skating",
+      "environment": "both",
+      "group": "no",
+      "level": 0,
+      "properties": [
+        "relaxation"
+      ]
+    },
+    {
+      "id":14,
+      "name": "golf",
+      "environment": "outdoor",
+      "group": "no",
+      "level": 0,
+      "properties": [
+        "relaxation"
+      ]
+    },
+    {
+      "id":15,
+      "name": "beach volley",
+      "environment": "outdoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":16,
+      "name": "football",
+      "environment": "outdoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":17,
+      "name": "basketball",
+      "environment": "outdoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":18,
+      "name": "tennis",
+      "environment": "outdoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance",
+        "strength"
+      ]
+    },
+    {
+      "id":19,
+      "name": "running",
+      "environment": "outdoor",
+      "group": "both",
+      "level": 0,
+      "properties": [
+        "endurance",
+        "strength"    
+      ]
+    },
+    {
+      "id":20,
+      "name": "ping pong",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 0,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":21,
+      "name": "squash",
+      "environment": "indoor",
+      "group": "yes",
+      "level": 1,
+      "properties": [
+        "endurance"
+      ]
+    },
+    {
+      "id":22,
+      "name": "parkour",
+      "environment": "indoor",
+      "group": "no",
+      "level": 2,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":23,
+      "name": "crosstraining",
+      "environment": "indoor",
+      "group": "no",
+      "level": 2,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":24,
+      "name": "personal training",
+      "environment": "indoor",
+      "group": "no",
+      "level": 0,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":25,
+      "name": "climbing",
+      "environment": "indoor",
+      "group": "no",
+      "level": 2,
+      "properties": [
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "id":26,
+      "name": "ems",
+      "environment": "indoor",
+      "group": "no",
+      "level": 0,
+      "properties": [
+        "strength",
+        "relaxation"
+      ]
+    }
+  ]

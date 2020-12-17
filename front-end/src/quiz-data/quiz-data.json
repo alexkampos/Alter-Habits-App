@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Do you like exercising as a group?",
+        "answer1": { 
+            "text": "Yes.",
+            "value": "yes"
+        },
+        "answer2": { 
+            "text": "No.",
+            "value": "no"
+        },
+        "answer3": { 
+            "text": "Don't care.",
+            "value": "both"
+        }
+    },
+    {
+        "question": "How much do you exercise?",
+        "answer1": { 
+            "text": "Quite a lot.",
+            "value": "2"
+        },
+        "answer2": { 
+            "text": "Not quite much.",
+            "value": "1"
+        },
+        "answer3": { 
+            "text": "Not at all.",
+            "value": "0"
+        }
+    },
+    {
+        "question": "What are you seeking of your activities?",
+        "answer1": { 
+            "text": "Strength.",
+            "value": "strength"
+        },
+        "answer2": { 
+            "text": "Endurance.",
+            "value": "endurance"
+        },
+        "answer3": { 
+            "text": "Relaxation.",
+            "value": "relaxation"
+        }
+    },
+    {
+        "question": "Where is your favourite place to exercise?",
+        "answer1": { 
+            "text": "Indoors.",
+            "value": "indoor"
+        },
+        "answer2": { 
+            "text": "Outdoors.",
+            "value": "outdoor"
+        },
+        "answer3": { 
+            "text": "Wherever.",
+            "value": "both"
+        }
+    }
+]

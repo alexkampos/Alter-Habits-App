@@ -1,0 +1,114 @@
+.details-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.details-container-span {
+    font-size: 350%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(41, 41, 41, 0.849);
+    padding: 30px;
+}
+
+.step-details-container {
+    height: auto;
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.step-container {
+    height: 150px;
+    width: 20%;
+    background: transparent;
+    border-radius: 3px;
+    border-left: 5px solid #2c4e5f;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card_step1:hover {
+    background: linear-gradient(-45deg, #202040, #543864);
+    transform: scale(1.5); 
+    border-left: 0px;
+    color: white;
+    transition: .5s;
+}
+
+.card_step2:hover {  
+    background: linear-gradient(-45deg, #ff6363, #ffbd69 );
+    transform: scale(1.5); 
+    border-left: 0px;
+    color: white;
+    transition: .5s;
+}
+.card_step3:hover {
+    background: linear-gradient(-45deg, #ffbd69   , #202040 );
+    transform: scale(1.5); 
+    border-left: 0px;
+    color: white;
+    transition: .5s;
+}
+
+.step-number {
+    font-weight: 600;
+    font-size: 200%;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    color: black;
+}
+
+.step-text {
+    font-size: 150%
+}
+
+@media (max-width: 1081px) {
+    .step-details-container {
+        flex-direction: column;
+    }
+
+    .step-container {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .card_step1:hover {
+        background: linear-gradient(-45deg, #202040, #543864);
+        transform: scale(1); 
+        border-left: 0px;
+        color: white;
+        transition: .5s;
+    }
+    .card_step2:hover {  
+        background: linear-gradient(-45deg, #ff6363, #ffbd69 );
+        transform: scale(1);  
+        border-left: 0px;
+        color: white;
+        transition: .5s;
+    }
+    .card_step3:hover {
+        background: linear-gradient(-45deg, #ffbd69   , #202040 );
+        transform: scale(1); 
+        border-left: 0px;
+        color: white;
+        transition: .5s;
+    }
+}
+
+@media (max-width: 400px) {
+    .details-container-span {
+        align-self: auto;
+        font-size: 200%;
+    } 
+}
+

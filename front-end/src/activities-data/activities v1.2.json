@@ -1,0 +1,300 @@
+[
+  {
+    "id": 1,
+    "name": "indoor cycling",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 0,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Indoor cycling, often also called spinning, as an organized sport , is a form of exercise with classes focusing on endurance, strength, intervals, high intensity (race days) and recovery, and involves using a special stationary exercise bicycle with a weighted flywheel in a classroom setting."
+  },
+  {
+    "id": 2,
+    "name": "pilates",
+    "environment": "both",
+    "group": "both",
+    "level": 0,
+    "properties": [
+      "relaxation"
+    ],
+    "description": "Pilates is a method of exercise that consists of low-impact flexibility and muscular strength and endurance movements. Pilates emphasizes proper postural alignment, core strength and muscle balance. Pilates is named for its creator, Joseph Pilates, who developed the exercises in the 1920s."
+  },
+  {
+    "id": 3,
+    "name": "yoga",
+    "environment": "both",
+    "group": "both",
+    "level": 0,
+    "properties": [
+      "relaxation"
+    ],
+    "description": "Yoga is a gentle way to improve your posture, balance, and coordination. Yoga is a systematic practice of physical exercise, breath control, relaxation, diet control, and positive thinking and meditation aimed at developing harmony in the body, mind, and environment."
+  },
+  {
+    "id": 4,
+    "name": "swimming",
+    "environment": "indoor",
+    "group": "no",
+    "level": 1,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Swimming is an individual or team racing sport that requires the use of one's entire body to move through water. Competitive swimming is one of the most popular Olympic sports, with varied distance events in butterfly, backstroke, breaststroke, freestyle, and individual medley."
+  },
+  {
+    "id": 5,
+    "name": "water polo",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 2,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Water polo is a competitive team sport played in water between two teams. The game consists of four quarters in which the two teams attempt to score goals by throwing the ball into the opposing team's goal. The team with the most goals at the end of the game wins the match."
+  },
+  {
+    "id": 6,
+    "name": "aqua aerobic",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 2,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Water aerobics (waterobics, aquatic fitness, aquafitness, aquafit) is the performance of aerobic exercise in water such as in a swimming pool. Done mostly vertically and without swimming typically in waist deep or deeper water, it is a type of resistance training."
+  },
+  {
+    "id": 7,
+    "name": "capoeira",
+    "environment": "indoor",
+    "group": "both",
+    "level": 1,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Capoeira is an Afro-Brazilian martial art that combines elements of dance, acrobatics, and music. It was developed by enslaved Africans in Brazil at the beginning of the 16th century."
+  },
+  {
+    "id": 8,
+    "name": "tai chi",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "stregth",
+      "relaxation"
+    ],
+    "description": "Tai chi, also called tai chi chuan, is a noncompetitive, self-paced system of gentle physical exercise and stretching. Tai chi is different from yoga, another type of meditative movement. Yoga includes various physical postures and breathing techniques, along with meditation."
+  },
+  {
+    "id": 9,
+    "name": "karate",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "strength"
+    ],
+    "description": "Karate is a Japanese martial art whose physical aspects seek the development of defensive and counterattacking body movements. The themes of traditional karate training are fighting and self-defense, though its mental and moral aspects target the overall improvement of the individual."
+  },
+  {
+    "id": 10,
+    "name": "self defence",
+    "environment": "indoor",
+    "group": "both",
+    "level": 0,
+    "properties": [
+      "strength"
+    ],
+    "description": "The act of defending oneself, one's actions, ideas, etc. boxing as a means of defending the person (esp in the phrase noble art of self-defence) law the right to defend one's person, family, or property against attack or threat of attack by the use of no more force than is reasonable."
+  },
+  {
+    "id": 11,
+    "name": "dance",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Dance, the movement of the body in a rhythmic way, usually to music and within a given space, for the purpose of expressing an idea or emotion, releasing energy, or simply taking delight in the movement itself."
+  },
+  {
+    "id": 12,
+    "name": "pole dance",
+    "environment": "indoor",
+    "group": "both",
+    "level": 1,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Pole dance combines dance and acrobatics centered on a vertical pole. This performance art form takes place not only in gentleman's clubs as erotic dance, but has also recently gained popularity as a mainstream form of fitness, practiced by many enthusiasts in gyms and in dedicated dance studios."
+  },
+  {
+    "id": 13,
+    "name": "ice skating",
+    "environment": "both",
+    "group": "no",
+    "level": 0,
+    "properties": [
+      "relaxation"
+    ],
+    "description": "Ice skating is a sport in which people slide over a smooth ice surface on steel-bladed skates. Millions of people skate in those parts of the world where the winters are cold enough. Although most people ice-skate for recreation and exercise, skating for form and speed is a highly competitive international sport."
+  },
+  {
+    "id": 14,
+    "name": "golf",
+    "environment": "outdoor",
+    "group": "no",
+    "level": 0,
+    "properties": [
+      "relaxation"
+    ],
+    "description": "Golf is defined, in the rules of golf, as 'playing a ball with a club from the teeing ground into the hole by a stroke or successive strokes in accordance with the Rules. A typical golf course consists of 18 holes but nine hole courses are common and can be played twice through for 18 holes."
+  },
+  {
+    "id": 15,
+    "name": "beach volley",
+    "environment": "outdoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Beach volleyball is a team sport played by two teams of two players on a sand court divided by a net. As in indoor volleyball, the objective of the game is to send the ball over the net and to ground it on the opponent's side of the court, and to prevent the same effort by the opponent."
+  },
+  {
+    "id": 16,
+    "name": "football",
+    "environment": "outdoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team's goal. The team that scores more goals wins."
+  },
+  {
+    "id": 17,
+    "name": "basketball",
+    "environment": "outdoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent's goal, an elevated horizontal hoop and net called a basket."
+  },
+  {
+    "id": 18,
+    "name": "tennis",
+    "environment": "outdoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance",
+      "strength"
+    ],
+    "description": " Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court."
+  },
+  {
+    "id": 19,
+    "name": "running",
+    "environment": "outdoor",
+    "group": "both",
+    "level": 0,
+    "properties": [
+      "endurance",
+      "strength"
+    ],
+    "description": "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running is a type of gait characterized by an aerial phase in which all feet are above the ground (though there are exceptions). Running has been described as the world's most accessible sport."
+  },
+  {
+    "id": 20,
+    "name": "ping pong",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 0,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball, also known as the ping-pong ball, back and forth across a table using small rackets."
+  },
+  {
+    "id": 21,
+    "name": "squash",
+    "environment": "indoor",
+    "group": "yes",
+    "level": 1,
+    "properties": [
+      "endurance"
+    ],
+    "description": "Squash is a sport in which two players hit a ball with a racket (or Racquet). The aim of the game is to beat the other player by hitting the front wall and making the ball bounce twice on the floor before they can hit their turn, or for them to hit the ball out of play."
+  },
+  {
+    "id": 22,
+    "name": "parkour",
+    "environment": "indoor",
+    "group": "no",
+    "level": 2,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Parkour, the practice of traversing obstacles in a man-made or natural environment through the use of running, vaulting, jumping, climbing, rolling, and other movements in order to travel from one point to another in the quickest and most efficient way possible without the use of equipment."
+  },
+  {
+    "id": 23,
+    "name": "cross training",
+    "environment": "indoor",
+    "group": "no",
+    "level": 2,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Cross-training is athletic training in sports other than the athlete's usual sport. The goal is improving overall performance. It takes advantage of the particular effectiveness of one training method to negate the shortcomings of another."
+  },
+  {
+    "id": 24,
+    "name": "personal training",
+    "environment": "indoor",
+    "group": "no",
+    "level": 0,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Where you work will determine your daily responsibilities, but typical duties for a personal athletic trainer include: Demonstrating exercises and routines to clients. Assisting clients in exercises to minimize injury and promote fitness. Modify exercises according to clients' fitness levels."
+  },
+  {
+    "id": 25,
+    "name": "climbing",
+    "environment": "indoor",
+    "group": "no",
+    "level": 2,
+    "properties": [
+      "strength",
+      "endurance"
+    ],
+    "description": "Sport climbing is a form of rock climbing that may rely on permanent anchors fixed to the rock for protection, in which a rope that is attached to the climber is clipped into the anchors to arrest a fall, or that involves climbing short distances with a crash pad underneath as protection."
+  },
+  {
+    "id": 26,
+    "name": "ems",
+    "environment": "indoor",
+    "group": "no",
+    "level": 0,
+    "properties": [
+      "strength",
+      "relaxation"
+    ],
+    "description": "EMS (electrical muscle stimulation or electromyostimulation) is a new trend sport that originally comes from physiotherapy. This high-intense whole-body workout uses low-frequency electrical impulses to stimulate those muscles that are often ignored by conventional training methods."
+  }
+]

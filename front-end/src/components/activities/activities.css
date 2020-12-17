@@ -1,0 +1,193 @@
+.activities-container {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.activities-container-span {
+    font-size: 350%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(41, 41, 41, 0.849);
+    padding: 30px;
+    align-self: center;
+    word-wrap: break-word;
+}
+
+.bottom-section {
+    display: flex;
+    padding: 20px;
+}
+
+.map-show-all-container {
+    position: relative;
+}
+
+@media (max-width: 400px) {
+    .activities-container-span {
+        align-self: auto;
+        font-size: 200%;
+    }
+}
+
+
+/* MAP */
+
+.google-map-style {
+    width: 55vw;
+    height: 450px;
+}
+
+.show-all {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    z-index: 50;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.603);
+    border: 1px solid rgba(0, 0, 0, 0.603);
+}
+
+.show-all:hover {
+    background-color: rgba(56, 56, 56, 0.651);
+    color: white;
+}
+
+.show-all:focus {
+    outline: none;
+}
+
+.shop-info-window {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-info-window img {
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.shop-info-window div {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-name {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.shop-address {
+    margin-top: 10px;
+}
+
+.enroll-to-shop-button {
+    border-radius: 5px;
+    background-color: rgba(31, 115, 224, 0.603);
+    color: white;
+    margin: 0 0 0 auto;
+    padding: 3px 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enroll-to-shop-button:disabled {
+    background-color: rgba(170, 198, 235, 0.493);
+    color: rgba(102, 101, 101, 0.459);
+}
+
+/* SEARCH */
+
+.text-description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    align-self: center;
+    font-weight: 700;
+}
+
+.description {
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-x: auto;
+}
+
+.map-search-container {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 450px;
+    overflow-x: hidden;
+}
+
+.activity-info{
+    /* border: black 1px solid; */
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.activity-info:hover {
+    background-color: rgba(56, 56, 56, 0.651);
+    color: white;
+}
+
+.activity-info img {
+    height: 80%;
+    width: 20%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.activity-selected {
+    background-color: rgba(56, 56, 56, 0.651);
+    color: white;
+}
+
+/* @-moz-document url-prefix() {
+    .activity-info {
+        margin-bottom: 50px;
+    }
+} */
+
+@media (max-width: 800px) {
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .google-map-style {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .map-search-container {
+        width: 100%;
+    }
+
+    .activity-info img {
+        height: 70%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .google-map-style {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .activity-info img {
+        height: 50%;
+    }
+}
