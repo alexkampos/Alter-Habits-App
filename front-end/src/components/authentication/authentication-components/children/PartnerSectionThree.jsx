@@ -64,14 +64,14 @@ export default function PartnerSectionThree(props){
     }, [])
 
     const {isLoaded, loadError} = useLoadScript({
-        googleMapsApiKey: "AIzaSyB5XTbFRTisGusNhEF_n34_UCqG1F5P8yA",
+        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
         libraries,
     });
 
     if(loadError) return "Error loading maps";
     if(!isLoaded) return "Loading maps";
 
-    Geocode.setApiKey("AIzaSyB5XTbFRTisGusNhEF_n34_UCqG1F5P8yA");
+    Geocode.setApiKey(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
 
     return (
         <div className="point-address-container">

@@ -8,7 +8,7 @@ export default function Appointment(props){
     
     const [shopAddress, setShopAddress] = useState('');
 
-    Geocode.setApiKey("AIzaSyB5XTbFRTisGusNhEF_n34_UCqG1F5P8yA");
+    Geocode.setApiKey(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
 
             Geocode.fromLatLng(props.reservationInfo.latitude, props.reservationInfo.longitude).then(
                 response => {
