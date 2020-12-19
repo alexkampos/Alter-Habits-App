@@ -104,7 +104,7 @@ The prices option has been replaced with Scheduler option.
 
 Also "Log in" and "Sign up" buttons have been replaced by number of appointments, "Quiz" button and "Log out" button.
 
-<img src="appointments-quiz-logout.PNG" />
+<img src="screenshots/appointments-quiz-logout.PNG" />
 
 #### Quiz
 
@@ -133,3 +133,29 @@ Below is demonstrated the procedure of making a new appointment and the asynchro
 
 ### Become a Partner
 
+Registered users and Guest users both have the "Become a Partner" option in navigation bar where, by filling a form with information needed from the application, user can apply for becoming a partner of Alter Habits and add his shop on the map. Below is the procedure.
+
+<img src="gifs/become-a-partner-1.gif" />
+
+<img src="gifs/become-a-partner-2.gif" />
+
+You will notice that submitting the form, will result in making an asynchronous addition of your shop, in Alter Habits map, but clicking on the shop registered users won't be able to enroll on any of the shop's activities and will be informed that the shop is a potential future partner (until an admin accepts potential partners' application).
+
+## Technology & Tools
+
+<a href="https://www.java.com/en/download/">Java 8</a> <br>
+<a href="https://netbeans.org/">Apache NetBeans IDE</a> <br>
+<a href="https://code.visualstudio.com/">Visual Studio Code IDE</a>
+<a href="https://maven.apache.org/">Maven</a> <br>
+<a href="https://spring.io/projects/spring-boot">Spring Boot</a> <br>
+&emsp;&#8226;&emsp;Spring Boot DevTools\
+&emsp;&#8226;&emsp;Spring Web MVC\
+&emsp;&#8226;&emsp;Spring Data JPA\
+&emsp;&#8226;&emsp;Spring Security\
+<a href="https://reactjs.org/">ReactJS</a> <br>
+
+## Collaborators
+
+&emsp;&#8226;&emsp;**Dimitris Katsamagos** <a href="https://www.linkedin.com/in/dimitris-katsamagos/">LinkedIn</a> <a href="https://github.com/dkatsamagos">GitHub</a>\
+&emsp;&#8226;&emsp;**John Latsis** <a href="https://www.linkedin.com/in/john-latsis-19b437144/">LinkedIn</a> <a href="https://github.com/Latselot">GitHub</a>\
+&emsp;&#8226;&emsp;**Vaggelis Leventelis** <a href="https://www.linkedin.com/in/vaggelis-leventelis/">LinkedIn</a> <a href="https://github.com/LeventelisV">GitHub</a>
