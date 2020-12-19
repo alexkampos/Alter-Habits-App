@@ -30,7 +30,106 @@ Project's key features include:\
 \
 &emsp;&#8226;&emsp;Make an activity appointment\
 \
-&emsp;&#8226;&emsp;Scheduler keeping track of appointments up to 7 days ahead
+&emsp;&#8226;&emsp;Scheduler keeping track of appointments up to 7 days ahead\
+\
+&emsp;&#8226;&emsp;Recommendation Quiz suggesting up to 3 activities to user, based on his answers\
+\
+&emsp;&#8226;&emsp;Become a Partner and make your own Shop available in Map's Shops
 
+## Demonstration
 
+First thing you'll notice being on Alter Habits web application is the SPA (<a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a>) philosophy.
+
+<img src="gifs/alter-habits-page.gif" />
+
+### Components being displayed as Guest user:
+
+#### Navigation Bar
+
+<img src="screenshots/guest-navbar.PNG" />
+
+#### Photos' Carousel
+
+<img src="screenshots/carousel.PNG" />
+
+#### How it works
+
+<img src="screenshots/how-it-works.PNG" />
+
+#### Activities & Shops
+
+<img src="screenshots/activities-and-shops.PNG" />
+
+As you may have noticed on the GIF above, picking on an activity will filter the map, showing only the shops providing that activity.
+This functionality is basically the same either as a guest or as a registered user, except that registered users will get a button saying "Enroll", displayed on shop's modal box of information that we'll talk more about later on the demonstration. Below is shop's modal box as a Guest.
+
+<img src="screenshots/guest-shop-modal.PNG" />
+
+#### Plans
+
+<img src="screenshots/plans.PNG" />
+
+Picking a plan will result in opening the registration modal.
+
+#### Footer
+
+<img src="screenshots/footer.PNG" />
+
+### Registration & Login
+
+If guest user wants to register on Alter Habits, he/she must click the "Sign up" button displayed on navigation bar and fill out the form of registeration.
+
+<img src="gifs/registration-1.gif" />
+
+<img src="gifs/registration-2.gif" />
+
+Validations are implemented on both front end and back end.
+
+<img src="screenshots/validation-field.PNG" />
+
+After finishing registration, user is redirected on Alter Habits page and there he can press the "Log in" button resulting in opening the log in modal box asking for user's username and password.
+
+<img src="screenshots/login.PNG" />
+
+### Components being displayed as Registered user:
+
+After user logs in the application with his/her account, he/she will notice that most od the components are pretty much the same.
+Below the differences will be demonstrated.
+
+#### Navigation Bar
+
+The prices option has been replaced with Scheduler option.
+
+<img src="screenshots/user-navbar.PNG" />
+
+Also "Log in" and "Sign up" buttons have been replaced by number of appointments, "Quiz" button and "Log out" button.
+
+<img src="appointments-quiz-logout.PNG" />
+
+#### Quiz
+
+Based on user's quiz's answers, the application will suggest activities that user might like.
+
+<img src="gifs/quiz.gif" />
+
+#### Scheduler
+
+Picking the "Scheduler" option on navigation bar, user will be transferred on the Scheduler component, which has replaced the Plans component.
+Scheduler will inform user about forthcoming appointments upt to 7 days.
+
+<img src="screenshots/scheduler.PNG" />
+
+#### Shop's Modal Box
+
+As mentioned earlier, also shops' modal box will change. Now user can enroll on any of chosen shop's activities (as long as he/she has at least one appointment left for this month).
+
+<img src="screenshots/user-shop-modal.PNG" />
+
+### Appointment
+
+Below is demonstrated the procedure of making a new appointment and the asynchronous update of scheduler and number of appointments.
+
+<img src="gifs/appointment.gif" />
+
+### Become a Partner
 
